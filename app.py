@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pdfplumber
 import re
 import json
+import os
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 
@@ -187,10 +188,12 @@ def process_pdf():
                 data_structure["WBS"].append(current_wbs)
                 # logging.info(f"Added final WBS: {current_wbs['wbsNumber']}")
 
+        os.remove(filename)
         return jsonify(data_structure)
 
     except Exception as e:
         # logging.error(f"Error processing PDF: {e}")
+        os.remove(filename)
         return jsonify({"error": f"Error processing PDF: {str(e)}"}), 500
 
 
