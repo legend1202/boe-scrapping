@@ -21,35 +21,35 @@ def extract_hours_and_dollars(tables):
 
     for table in tables:
         if not table or not table[0]:
-            continue
+            continue  # Skip empty or invalid tables
 
         header = table[0]
-        header_lower = [h.lower() for h in header]
+        if not isinstance(header, list):  # Ensure the header is a list
+            continue
 
-        # Process hours table (either from explicit headers or default structure)
+        header_lower = [h.lower() if isinstance(h, str) else "" for h in header]
+
+        # Process hours table
         if "year" in header_lower and "hours" in header_lower:
-            # logging.debug("Found hours table, processing...")
             extracted_hours = process_spread_table_dynamic_year(table, "hours")
             hours_by_month.update(extracted_hours)
 
-        # Process dollars table (either from explicit headers or default structure)
+        # Process dollars table
         elif "year" in header_lower and "dollars" in header_lower:
-            # logging.debug("Found dollars table, processing...")
             extracted_dollars = process_spread_table_dynamic_year(table, "dollars")
             dollars_by_month.update(extracted_dollars)
 
         # Handle cases where headers are missing or inconsistent
-        elif not hours_by_month and len(header) >= 13:  
-            # logging.debug("Attempting to extract hours from table without standard headers...")
+        elif not hours_by_month and len(header) >= 13:
             extracted_hours = process_spread_table_dynamic_year(table, "hours")
             hours_by_month.update(extracted_hours)
 
-        elif not dollars_by_month and len(header) >= 13:  
-            # logging.debug("Attempting to extract dollars from table without standard headers...")
+        elif not dollars_by_month and len(header) >= 13:
             extracted_dollars = process_spread_table_dynamic_year(table, "dollars")
             dollars_by_month.update(extracted_dollars)
 
     return hours_by_month, dollars_by_month
+
 
 def process_spread_table_dynamic_year(table, data_type="hours"):
 
@@ -72,9 +72,6 @@ def process_spread_table_dynamic_year(table, data_type="hours"):
             continue
 
     return year_data
-
-
-
 
 
 def find_task_and_next(items, name, start_date, end_date):

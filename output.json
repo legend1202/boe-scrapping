@@ -1,16 +1,16 @@
 {
   "WBS": [
     {
-      "boeAuthor": "Gump, B. –Gump, Bubba",
-      "boeDescription": "The tasks described in thisBasis ofEstimate(BOE) are in support ofContract Work Breakdown Structure(CWBS)element",
-      "boeTitle": "Party Support- PostParty",
+      "boeAuthor": "Gump, B. – Gump, Bubba",
+      "boeDescription": "The tasks described in this Basis of Estimate (BOE) are in support of Contract Work Breakdown Structure (CWBS) element",
+      "boeTitle": "Party Support - Post Party",
       "clinNumber": "CLIN 0009",
       "clinTitle": "Parties",
       "component": "4-Party Planning",
       "cost": 0,
       "end_date": "09/2025",
       "hours": 0,
-      "sowReference": "1.2.3,2.3.4,3.2.1,4.1.2.4;",
+      "sowReference": "1.2.3, 2.3.4, 3.2.1, 4.1.2.4;",
       "start_date": "09/2024",
       "tasks": [
         {
@@ -50,29 +50,11 @@
           "start_date": "09/2024"
         },
         {
-          "cost": 1000,
-          "description": "",
-          "end_date": "09/2025",
-          "hours": 100,
-          "name": "Décor Design",
-          "spread_totals": {
-            "dollars_by_month": {
-              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1000]
-            },
-            "hours_by_month": {
-              "2024": [10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 50, 10],
-              "2025": [10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-            }
-          },
-          "start_date": "09/2024"
-        },
-        {
           "cost": 1500,
           "description": "",
           "end_date": "09/2025",
           "hours": 150,
-          "name": "Modern Décor Training",
+          "name": "Décor Design",
           "spread_totals": {
             "dollars_by_month": {
               "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -90,7 +72,7 @@
           "description": "",
           "end_date": "09/2025",
           "hours": 200,
-          "name": "Supplier Management",
+          "name": "Modern Décor Training",
           "spread_totals": {
             "dollars_by_month": {
               "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -108,7 +90,7 @@
           "description": "",
           "end_date": "09/2025",
           "hours": 250,
-          "name": "Initial Planning Meeting",
+          "name": "Supplier Management",
           "spread_totals": {
             "dollars_by_month": {
               "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -122,19 +104,37 @@
           "start_date": "09/2024"
         },
         {
-          "cost": 350,
+          "cost": 3000,
           "description": "",
           "end_date": "09/2025",
-          "hours": 3000,
+          "hours": 300,
+          "name": "Initial Planning Meeting",
+          "spread_totals": {
+            "dollars_by_month": {
+              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3000]
+            },
+            "hours_by_month": {
+              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 25],
+              "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 25]
+            }
+          },
+          "start_date": "09/2024"
+        },
+        {
+          "cost": 3500,
+          "description": "",
+          "end_date": "09/2025",
+          "hours": 350,
           "name": "Common Themes",
           "spread_totals": {
             "dollars_by_month": {
-              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 50],
-              "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 50]
+              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3500]
             },
             "hours_by_month": {
-              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3000]
+              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 50],
+              "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 25, 50]
             }
           },
           "start_date": "09/2024"
@@ -158,29 +158,11 @@
           "start_date": "09/2024"
         },
         {
-          "cost": 4000,
-          "description": "",
-          "end_date": "09/2025",
-          "hours": 400,
-          "name": "Party Planning Support",
-          "spread_totals": {
-            "dollars_by_month": {
-              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4000]
-            },
-            "hours_by_month": {
-              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 50, 50],
-              "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 50, 50]
-            }
-          },
-          "start_date": "09/2024"
-        },
-        {
           "cost": 4500,
           "description": "",
-          "end_date": "12/2025",
+          "end_date": "09/2025",
           "hours": 450,
-          "name": "Facility Planning",
+          "name": "Party Planning Support",
           "spread_totals": {
             "dollars_by_month": {
               "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -191,6 +173,24 @@
               "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 35, 50, 50]
             }
           },
+          "start_date": "09/2024"
+        },
+        {
+          "cost": 5000,
+          "description": "",
+          "end_date": "12/2025",
+          "hours": 500,
+          "name": "Facility Planning",
+          "spread_totals": {
+            "dollars_by_month": {
+              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5000]
+            },
+            "hours_by_month": {
+              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 35, 75, 50],
+              "2025": [10, 10, 10, 10, 10, 10, 10, 10, 10, 35, 75, 50]
+            }
+          },
           "start_date": "09/2021"
         }
       ],
@@ -198,8 +198,8 @@
       "wbsTitle": "Party Support"
     },
     {
-      "boeAuthor": "Gump, B. –Gump, Bubba",
-      "boeDescription": "The tasks described in thisBasis ofEstimate(BOE) are in support ofContract Work Breakdown Structure(CWBS)element",
+      "boeAuthor": "Gump, B. – Gump, Bubba",
+      "boeDescription": "The tasks described in this Basis of Estimate (BOE) are in support of Contract Work Breakdown Structure (CWBS) element",
       "boeTitle": "Party Games",
       "clinNumber": "CLIN 0003",
       "clinTitle": "Parties",
@@ -207,7 +207,7 @@
       "cost": 0,
       "end_date": "09/2025",
       "hours": 0,
-      "sowReference": "2.3.1,1.3.4,1.2.1,1.1.2.4;",
+      "sowReference": "2.3.1, 1.3.4, 1.2.1, 1.1.2.4;",
       "start_date": "09/2024",
       "tasks": [
         {
@@ -217,7 +217,10 @@
           "hours": 150,
           "name": "Pin Tail on Donkey",
           "spread_totals": {
-            "dollars_by_month": {},
+            "dollars_by_month": {
+              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            },
             "hours_by_month": {
               "2024": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0],
               "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 25]
@@ -226,19 +229,19 @@
           "start_date": "09/2025"
         },
         {
-          "cost": 100,
+          "cost": 10000,
           "description": "",
           "end_date": "09/2025",
-          "hours": 0,
+          "hours": 100,
           "name": "Clothes Pin Drop",
           "spread_totals": {
             "dollars_by_month": {
-              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0],
-              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10]
+              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10000]
             },
             "hours_by_month": {
-              "2024": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+              "2024": [10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0],
+              "2025": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10]
             }
           },
           "start_date": "09/2024"
@@ -248,5 +251,5 @@
       "wbsTitle": "Party Games"
     }
   ],
-  "proposalName": "10-012345 Proposal TitleXYZ"
+  "proposalName": "10-012345 Proposal Title XYZ"
 }
